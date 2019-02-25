@@ -4,7 +4,7 @@ def roll_call_dwarves(names)# code an argument here
   while i < names.length
     yield(names.[i])
     count += 1
-    puts "#{count}. #{names}"
+    puts "#{names}"
   end
 end
 
