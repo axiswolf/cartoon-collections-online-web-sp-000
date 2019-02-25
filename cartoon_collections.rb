@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)# code an argument here
   # Your code here
   count = 1
-  while dwarves < names.length
+  while i < names.length
     puts "#{count} #{names}"
     count += 1
   end
