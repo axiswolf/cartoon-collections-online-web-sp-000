@@ -13,15 +13,9 @@ def summon_captain_planet(planeteer)# code an argument here
   end
 end
 
-def long_planeteer_calls(words)# code an argument here
-  # Your code here
-  words.any? do |word|
-    word > 4
-    if word > 4
-      true
-    else
-      false
-    end
+def long_planeteer_calls(calls)
+  calls.any? do |call|
+    call.length > 4
   end
 end
 
